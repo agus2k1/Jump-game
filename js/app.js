@@ -78,7 +78,7 @@ window.addEventListener("load", function() {
             this.maxFrame = 8;
         }
         draw(context){
-            context.strokeStyle = "white";
+            //context.strokeStyle = "white";
             context.beginPath();
             context.arc(this.x + this.width/2, this.y + this.height/2 + 20, this.width/3, 0, Math.PI * 2);
             context.stroke();
@@ -177,7 +177,7 @@ window.addEventListener("load", function() {
 
         }
         draw(context){
-            context.strokeStyle = "white";
+            //context.strokeStyle = "white";
             context.beginPath();
             context.arc(this.x + this.width/2 - 20, this.y + this.height/2, this.width/3, 0, Math.PI * 2);
             context.stroke();
@@ -260,7 +260,7 @@ window.addEventListener("load", function() {
 
     let lastTime = 0;
     let enemyTimer = 0;
-    let enemyInterval = 1000;
+    //let enemyInterval = 1000;
     let randomEnemyInterval = Math.random() * 1000 + 500;
     
     function animate(timeStamp){
